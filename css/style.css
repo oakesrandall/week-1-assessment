@@ -1,0 +1,107 @@
+body {
+	background-image: url('../images/bgtile.png');
+	background-repeat: repeat-x;
+	width: 100%;
+}
+
+.leftDiv {
+	float: left;
+	right: 45%;
+	width: 25%;
+	max-width: 500px;
+	height: 530px;
+	margin: 75px 0 20px 12em;
+}
+
+.rightDiv {
+
+	float: right;
+	left: 55%;
+	height: 530px;
+	width: 45%;
+	margin: 75px 10em 20px 0;
+	display: inline-block;
+}
+
+.titleAndButton {
+	display: inline-block;
+	height: 80px;
+	margin-top: 30px;
+	text-align: center;
+
+}
+
+button {
+	background-image: url('../images/home.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: rgb(101,131,162);
+}
+
+.phoneImages {
+/*	margin: 75px 10px 20px 75px;
+	display: inline-block;
+	float: left;*/
+}
+
+.paragraphBlock {
+	background-image: url('../images/frame.png');
+	width: 400px;
+}
+
+.paragraphBlock p {
+	padding-left: 5px;
+}
+
+.paragraphBlock h1 {
+	margin: 0 auto 0 -10px;
+
+}
+
+#firstHeadline {
+	margin-top: 10px;
+}
+
+#instagramLogo {
+	width: 275px;
+}
+
+.appStoreImages {
+
+}
+.headline {
+	color: rgb(21,48,83);
+	margin: 40px 0 0 20px;
+}
+
+footer {
+	clear:left;
+	text-align: center;
+
+}
+footer li {
+	display: inline;
+	color: rgb(175,175,175);
+}
+
+footer li a{
+	display: inline;
+	text-decoration: none;
+	font-size: 10px;
+	margin: 0 10px;
+	color: rgb(101,131,162);
+}
+
+#copyright {
+	font-size: 10px;
+
+}
+
+
+
+
+
+
+
+
+
