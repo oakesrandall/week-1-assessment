@@ -98,14 +98,21 @@ button {
 	color: rgb(21,48,83);
 	margin: 40px 0 0 20px;
 }
-
 footer {
-  margin: 600px auto
-	text-align: center;
+  text.align: center;
+}
+
+.links {
+  position: absolute;
+  margin-top: 600px;
+  text-align: center;
+  margin-left: 430px;
+
 
 }
 footer li {
 	display: inline;
+  text-align: center;
 	color: rgb(175,175,175);
 }
 
