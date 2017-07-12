@@ -5,8 +5,9 @@ body {
 }
 
 .leftDiv {
+  position: absolute;
 	float: left;
-	right: 45%;
+	right: 57%;
 	width: 25%;
 	max-width: 500px;
 	height: 530px;
@@ -14,9 +15,9 @@ body {
 }
 
 .rightDiv {
-
+  position: absolute;
 	float: right;
-	left: 55%;
+	left: 47%;
 	height: 530px;
 	width: 45%;
 	margin: 75px 10em 20px 0;
@@ -34,8 +35,11 @@ body {
 button {
 	background-image: url('../images/home.png');
 	background-repeat: no-repeat;
-	background-position: right;
+	background-position: left;
 	background-color: rgb(101,131,162);
+  color: white;
+  height: 35px;
+  width: 90px;
 }
 
 .phoneImages {
@@ -75,7 +79,7 @@ button {
 }
 
 footer {
-	clear:left;
+  margin: 600px auto
 	text-align: center;
 
 }
@@ -96,12 +100,3 @@ footer li a{
 	font-size: 10px;
 
 }
-
-
-
-
-
-
-
-
-
