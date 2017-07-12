@@ -1,9 +1,12 @@
+
+/*sets background image*/
 body {
 	background-image: url('../images/bgtile.png');
 	background-repeat: repeat-x;
 	width: 100%;
 }
 
+/*creates left portion and assignes values*/
 .leftDiv {
   position: absolute;
 	float: left;
@@ -15,6 +18,7 @@ body {
 	margin: 75px 0 20px 12em;
 }
 
+/*creates right portion and assigns values*/
 .rightDiv {
   position: absolute;
 	float: right;
@@ -25,15 +29,16 @@ body {
 	display: inline-block;
 }
 
+/*aligns title and button section*/
 .titleAndButton {
 	display: inline-block;
 	height: 80px;
 	margin-top: 30px;
 	text-align: center;
   width: 400px;
-
 }
 
+/*styles the login button*/
 button {
 	background-image: url('../images/home.png');
 	background-repeat: no-repeat;
@@ -49,13 +54,7 @@ button {
   border-radius: 5px;
 }
 
-
-.phoneImages {
-/*	margin: 75px 10px 20px 75px;
-	display: inline-block;
-	float: left;*/
-}
-
+/*styles the section with the paragraphs and adds drop shadow effect*/
 .paragraphBlock {
 	width: 400px;
   height: 400px;
@@ -64,58 +63,70 @@ button {
   background-color: white;
 }
 
+/*aligns paragraph elements*/
 .paragraphBlock p {
 	padding-left: 5px;
 }
 
+/*aligns headline elements in paragraph block*/
 .paragraphBlock h1 {
 	margin: 0 auto 0 -10px;
 
 }
 
+/*moves the headline down*/
 #firstHeadline {
 	margin-top: 10px;
 }
 
+/*sets position and size of logo*/
 #instagramLogo {
 	width: 260px;
   float: left;
 }
 
+/*moves images down*/
 .appStoreImages {
   margin-top: -5px;
 }
 
+/*sets height of paragraph elements*/
 .paragraphs {
   height: 240px;
 }
 
+/*sets margin of paragraph elements*/
 .paragraphs p {
   margin: 30px 0 30px 0;
 }
 
+/*moves and colors headline class*/
 .headline {
 	color: rgb(21,48,83);
 	margin: 40px 0 0 20px;
 }
+
+/*centers content in footer*/
 footer {
   text.align: center;
 }
 
+/*positions links in footer*/
 .links {
   position: absolute;
   margin-top: 600px;
   text-align: center;
   margin-left: 430px;
-
-
 }
+
+/*makes list items display inline and colors them*/
 footer li {
 	display: inline;
   text-align: center;
 	color: rgb(175,175,175);
 }
 
+/*displays link in footer inline with other elements*/
 footer li a{
 	display: inline;
 	text-decoration: none;
@@ -124,6 +135,7 @@ footer li a{
 	color: rgb(101,131,162);
 }
 
+/*sets size of copyright info*/
 #copyright {
 	font-size: 10px;
 
