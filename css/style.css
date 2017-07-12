@@ -29,6 +29,7 @@ body {
 	height: 80px;
 	margin-top: 30px;
 	text-align: center;
+  width: 400px;
 
 }
 
@@ -40,7 +41,13 @@ button {
   color: white;
   height: 35px;
   width: 90px;
+  float: right;
+  margin-top: 15px;
+  border-color: rgb(69,102,136);
+  border-style: solid 2px;
+  border-radius: 5px;
 }
+
 
 .phoneImages {
 /*	margin: 75px 10px 20px 75px;
@@ -49,8 +56,11 @@ button {
 }
 
 .paragraphBlock {
-	background-image: url('../images/frame.png');
 	width: 400px;
+  height: 400px;
+  box-shadow: 0 -6px 12px -3px black;
+  margin-top: -35px;
+  background-color: white;
 }
 
 .paragraphBlock p {
@@ -67,7 +77,8 @@ button {
 }
 
 #instagramLogo {
-	width: 275px;
+	width: 260px;
+  float: left;
 }
 
 .appStoreImages {
